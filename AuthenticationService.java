@@ -48,7 +48,7 @@ public class AuthenticationService {
 	  * reads in the configuration file and parses values
 	  * */
 	
-	public LDAPAuthenticationService() {
+	public AuthenticationService() {
 		// read in the properties file
 		try {
 			// go get the properties for this LDAP connection
